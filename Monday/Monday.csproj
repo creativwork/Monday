@@ -48,6 +48,10 @@
     <Compile Include="Command\ActionCommand.cs" />
     <Compile Include="Extension\CollectionExtension.cs" />
     <Compile Include="Helper\MouseDoubleClickHelper.cs" />
+    <Compile Include="Messenger\EventHandler.cs" />
+    <Compile Include="Messenger\EventHandlerModel.cs" />
+    <Compile Include="Messenger\PublishSubscribe.cs" />
+    <Compile Include="Messenger\PublishSubscribeEventArgs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
