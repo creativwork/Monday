@@ -44,7 +44,11 @@
   <ItemGroup>
     <Compile Include="Base\ViewModelBase.cs" />
     <Compile Include="Command\ActionCommand.cs" />
+    <Compile Include="Extension\CollectionExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Helper\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
