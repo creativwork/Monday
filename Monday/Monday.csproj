@@ -47,6 +47,7 @@
     <Compile Include="Base\ViewModelBase.cs" />
     <Compile Include="Command\ActionCommand.cs" />
     <Compile Include="Extension\CollectionExtension.cs" />
+    <Compile Include="Extension\LiveShapingExtension.cs" />
     <Compile Include="Helper\MouseDoubleClickHelper.cs" />
     <Compile Include="Messenger\EventHandler.cs" />
     <Compile Include="Messenger\EventHandlerModel.cs" />

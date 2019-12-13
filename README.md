@@ -43,6 +43,14 @@ ObservableCollection<T>().AddRangeCleared();
 
 ```
 
+### LiveShapingExtension-Class
+
+```CSharp
+
+EnableLiveSorting(this ICollectionView collectionView)
+
+```
+
 ## Helper
 
 ### MouseDoubleClickHelper-Class
