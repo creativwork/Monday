@@ -7,11 +7,29 @@ Yes, created on a monday.
 
 ### ViewModelBase-Class
 
+A base class for view-models.
+You can create properties with the `OnPropertyChanged` event.
+
 Implementation:
 
 ```CSharp
 
-public class <Classname>ViewModel : ViewModelBase { }
+public class <Classname>ViewModel : ViewModelBase
+{
+    private string propertyName;
+    public string PropertyName
+    {
+        get => propertyName;
+        set
+        {
+            if (propertyName == value)
+                return;
+
+            propertyName = value;
+            OnPropertyChanged();
+        }
+    }
+}
 
 ```
 
